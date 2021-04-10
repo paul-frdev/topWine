@@ -351,7 +351,6 @@ body {
   padding: 20px 0 40px;
 
   .container {
-    // background-image: url('images/grape-bg.png');
     background-repeat: no-repeat;
   }
 
@@ -365,15 +364,22 @@ body {
   }
 
   &__items {
-    width: 900px;
+    position: relative;
+    width: 801px;
     margin: 0 auto;
+    margin-bottom: 25px;
   }
 
   &__item {
     width: 235px;
     height: 415px;
     padding: 20px 25px;
+    margin-left: 15px;
     background-image: url('../images/wines/layer.png');
+  }
+
+  &__item-link {
+    color: #231a19;
   }
 
   &__item-title {
@@ -400,6 +406,7 @@ body {
     margin: 0 auto;
     height: 252px;
     margin-bottom: 25px;
+    object-fit: contain;
   }
 
   &__item-price {
@@ -414,6 +421,27 @@ body {
     display: block;
     margin: 0 auto;
     padding: 16px 29px;
+  }
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-dot {
+    //width, height
+    position: absolute;
+    content: '';
+    top: 33%;
+    width: 21px;
+    height: 27px;
+    margin-top: 50px;
+  }
+
+  .owl-carousel .owl-nav .owl-prev {
+    background: url('../images/icons/arrow-left.png') no-repeat;
+    left: -50px;
+  }
+
+  .owl-carousel .owl-nav .owl-next {
+    background: url('../images/icons/arrow-write.png') no-repeat;
+    right: -50px;
   }
 }
 
