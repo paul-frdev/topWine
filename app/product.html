@@ -105,27 +105,37 @@
             </div>
 
             <div class="filter__item filter-sugar">
-              <h3 class="filter__title">Колір</h3>
+              <h3 class="filter__title">Цукор</h3>
               <form class="filter-sugar__form" action="#">
                 <label class="filter-sugar__label">
-                  <input class="filter-sugar__input" type="radio" name="h" checked>
+                  <input class="filter-sugar__input" type="radio" name="g" checked>
                   <span class="filter-sugar__checkbox"></span>
                   <span class="filter-sugar__text">Будь-яке</span>
                 </label>
                 <label class="filter-sugar__label">
-                  <input class="filter-sugar__input" type="radio" name="h">
+                  <input class="filter-sugar__input" type="radio" name="g">
                   <span class="filter-sugar__checkbox"></span>
                   <span class="filter-sugar__text">Солодке</span>
                 </label>
                 <label class="filter-sugar__label">
-                  <input class="filter-sugar__input" type="radio" name="h">
+                  <input class="filter-sugar__input" type="radio" name="g">
                   <span class="filter-sugar__checkbox"></span>
-                  <span class="filter-sugar__text">Рожеве</span>
+                  <span class="filter-sugar__text">Сухе</span>
                 </label>
                 <label class="filter-sugar__label">
-                  <input class="filter-sugar__input" type="radio" name="h">
+                  <input class="filter-sugar__input" type="radio" name="g">
                   <span class="filter-sugar__checkbox"></span>
-                  <span class="filter-sugar__text">Біле</span>
+                  <span class="filter-sugar__text">Напівсолодке</span>
+                </label>
+                <label class="filter-sugar__label">
+                  <input class="filter-sugar__input" type="radio" name="g">
+                  <span class="filter-sugar__checkbox"></span>
+                  <span class="filter-sugar__text">Напівсухе</span>
+                </label>
+                <label class="filter-sugar__label">
+                  <input class="filter-sugar__input" type="radio" name="g">
+                  <span class="filter-sugar__checkbox"></span>
+                  <span class="filter-sugar__text">Інше</span>
                 </label>
               </form>
             </div>
@@ -155,12 +165,174 @@
                 </label>
               </form>
             </div>
+
+            <div class="filter__item filter-sort">
+              <h3 class="filter__title">Регіон</h3>
+              <form class="filter-sort__form" action="#">
+                <select class="filter-sort__list">
+                  <option value="">Оберіть регіон</option>
+                  <option value="Франція">Франція</option>
+                  <option value="Італія">Італія</option>
+                  <option value="Португалія">Португалія</option>
+                  <option value="Іспанія">Іспанія</option>
+                  <option value="Аргентина">Аргентина</option>
+                  <option value="Чилі">Чилі</option>
+                  <option value="Молдова">Молдова</option>
+                  <option value="Грузія">Грузія</option>
+                  <option value="Кіпр">Кіпр</option>
+                </select>
+              </form>
+            </div>
+
+            <button class="search-btn filter-btn">
+              Знайти
+            </button>
           </div>
 
-
-
           <div class="catalog__content">
+            <div class="search-content">
+              <form class="search-content__form" action="#">
+                <input type="text" class="search-content__input" placeholder="Пошук серед вин">
+                <button class="search-content__btn search-btn">Знайти</button>
+              </form>
+            </div>
 
+            <div class="catalog-wines">
+              <div class="catalog-wines__item">
+                <a class="catalog-wines__item-link" href="#">
+                  <h4 class="catalog-wines__item-title">Josh Cellars Pinot Noir</h4>
+                  <div class="catalog-wines__item-box">
+                    <p class="catalog-wines__item-text">США</p>
+                    <p class="catalog-wines__item-text">0,75 л</p>
+                    <p class="catalog-wines__item-text">2015 г </p>
+                  </div>
+                  <img class="catalog-wines__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+                  <p class="catalog-wines__item-price">780 грн</p>
+                </a>
+              </div>
+              <div class="catalog-wines__item">
+                <a class="catalog-wines__item-link" href="#">
+                  <h4 class="catalog-wines__item-title">Josh Cellars Pinot Noir</h4>
+                  <div class="catalog-wines__item-box">
+                    <p class="catalog-wines__item-text">США</p>
+                    <p class="catalog-wines__item-text">0,75 л</p>
+                    <p class="catalog-wines__item-text">2015 г </p>
+                  </div>
+                  <img class="catalog-wines__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+                  <p class="catalog-wines__item-price">780 грн</p>
+                </a>
+              </div>
+              <div class="catalog-wines__item">
+                <a class="catalog-wines__item-link" href="#">
+                  <h4 class="catalog-wines__item-title">Josh Cellars Pinot Noir</h4>
+                  <div class="catalog-wines__item-box">
+                    <p class="catalog-wines__item-text">США</p>
+                    <p class="catalog-wines__item-text">0,75 л</p>
+                    <p class="catalog-wines__item-text">2015 г </p>
+                  </div>
+                  <img class="catalog-wines__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+                  <p class="catalog-wines__item-price">780 грн</p>
+                </a>
+              </div>
+              <div class="catalog-wines__item">
+                <a class="catalog-wines__item-link" href="#">
+                  <h4 class="catalog-wines__item-title">Josh Cellars Pinot Noir</h4>
+                  <div class="catalog-wines__item-box">
+                    <p class="catalog-wines__item-text">США</p>
+                    <p class="catalog-wines__item-text">0,75 л</p>
+                    <p class="catalog-wines__item-text">2015 г </p>
+                  </div>
+                  <img class="catalog-wines__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+                  <p class="catalog-wines__item-price">780 грн</p>
+                </a>
+              </div>
+              <div class="catalog-wines__item">
+                <a class="catalog-wines__item-link" href="#">
+                  <h4 class="catalog-wines__item-title">Josh Cellars Pinot Noir</h4>
+                  <div class="catalog-wines__item-box">
+                    <p class="catalog-wines__item-text">США</p>
+                    <p class="catalog-wines__item-text">0,75 л</p>
+                    <p class="catalog-wines__item-text">2015 г </p>
+                  </div>
+                  <img class="catalog-wines__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+                  <p class="catalog-wines__item-price">780 грн</p>
+                </a>
+              </div>
+              <div class="catalog-wines__item">
+                <a class="catalog-wines__item-link" href="#">
+                  <h4 class="catalog-wines__item-title">Josh Cellars Pinot Noir</h4>
+                  <div class="catalog-wines__item-box">
+                    <p class="catalog-wines__item-text">США</p>
+                    <p class="catalog-wines__item-text">0,75 л</p>
+                    <p class="catalog-wines__item-text">2015 г </p>
+                  </div>
+                  <img class="catalog-wines__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+                  <p class="catalog-wines__item-price">780 грн</p>
+                </a>
+              </div>
+              <div class="catalog-wines__item">
+                <a class="catalog-wines__item-link" href="#">
+                  <h4 class="catalog-wines__item-title">Josh Cellars Pinot Noir</h4>
+                  <div class="catalog-wines__item-box">
+                    <p class="catalog-wines__item-text">США</p>
+                    <p class="catalog-wines__item-text">0,75 л</p>
+                    <p class="catalog-wines__item-text">2015 г </p>
+                  </div>
+                  <img class="catalog-wines__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+                  <p class="catalog-wines__item-price">780 грн</p>
+                </a>
+              </div>
+              <div class="catalog-wines__item">
+                <a class="catalog-wines__item-link" href="#">
+                  <h4 class="catalog-wines__item-title">Josh Cellars Pinot Noir</h4>
+                  <div class="catalog-wines__item-box">
+                    <p class="catalog-wines__item-text">США</p>
+                    <p class="catalog-wines__item-text">0,75 л</p>
+                    <p class="catalog-wines__item-text">2015 г </p>
+                  </div>
+                  <img class="catalog-wines__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+                  <p class="catalog-wines__item-price">780 грн</p>
+                </a>
+              </div>
+              <div class="catalog-wines__item">
+                <a class="catalog-wines__item-link" href="#">
+                  <h4 class="catalog-wines__item-title">Josh Cellars Pinot Noir</h4>
+                  <div class="catalog-wines__item-box">
+                    <p class="catalog-wines__item-text">США</p>
+                    <p class="catalog-wines__item-text">0,75 л</p>
+                    <p class="catalog-wines__item-text">2015 г </p>
+                  </div>
+                  <img class="catalog-wines__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+                  <p class="catalog-wines__item-price">780 грн</p>
+                </a>
+              </div>
+            </div>
+            <button class="show-more">Показати більше</button>
+            <div class="pagination">
+              <a class="pagination__prev pagination__arrows" href="#">
+                <img class="pagination__prev-img" src="images/icons/pagination-prev.png" alt="prev">
+              </a>
+              <ul class="pagination__list">
+                <li class="pagination__item pagination__item-active">
+                  <a class="pagination__link pagination__link--active" href="#">1</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">2</a>
+                </li>
+                <li class="pagination__item">
+                  <span class="pagination__link pagination__span">...</span>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">6</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">7</a>
+                </li>
+              </ul>
+              <a class="pagination__next pagination__arrows" href="#">
+                <img class="pagination__next-img" src="images/icons/pagination-next.png" alt="next">
+              </a>
+            </div>
           </div>
         </div>
       </div>

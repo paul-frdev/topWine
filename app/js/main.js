@@ -1,11 +1,14 @@
 $(function () {
+   
+  $('.filter-sort__list').styler();
+
 
   var $range = $(".filter-price__range");
   var $inputFrom = $(".filter-price__from");
   var $inputTo = $(".filter-price__to");
   var instance;
-  var min = 0;
-  var max = 1000;
+  var min = 110;
+  var max = 4500;
   var from = 0;
   var to = 0;
 
@@ -67,7 +70,7 @@ $(function () {
   });
 
 
-  
+
   $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 15,
