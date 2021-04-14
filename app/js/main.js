@@ -1,6 +1,21 @@
 $(function () {
    
-  $('.filter-sort__list').styler();
+
+  $(".star").rateYo({
+    starWidth: "14px",
+    normalFill: "#c9c9c9",
+    ratedFill: "#80021e",
+    readOnly: true,
+  });
+
+  $(".product-reviews__star").rateYo({
+    starWidth: "14px",
+    normalFill: "#c9c9c9",
+    ratedFill: "#80021e",
+    readOnly: false,
+  });
+
+  $('.filter-sort__list, .product-item__form-input').styler();
 
 
   var $range = $(".filter-price__range");
