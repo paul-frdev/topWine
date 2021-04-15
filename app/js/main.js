@@ -26,7 +26,7 @@ $(function () {
     readOnly: false,
   });
 
-  $('.filter-sort__list, .product-item__form-input').styler();
+  $('.filter-sort__list, .product-item__form-input, .purchase-item__form-input').styler();
 
 
   var $range = $(".filter-price__range");
