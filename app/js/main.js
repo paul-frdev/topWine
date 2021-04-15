@@ -1,5 +1,16 @@
 $(function () {
-   
+
+  $('.promotions-slider__items').slick({
+    dots: false,
+    arrows: true,
+    infinite: true,
+    speed: 1200,
+    fade: true,
+    cssEase: 'linear',
+    nextArrow: '<button type="button" class="slick-next"><img src="images/promotions/promo-left.png" alt="left arrow"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="images/promotions/promo-right.png" alt="right arrow"></button>',
+  });
+
 
   $(".star").rateYo({
     starWidth: "14px",
@@ -103,5 +114,6 @@ $(function () {
         items: 3
       }
     }
-  })
+  });
+  
 });
