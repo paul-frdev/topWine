@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>page</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Головна</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Перевірка якості</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Каталог вин</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Акції</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <div class="user-nav__item">
+            <a class="user-nav__link" href="#">
+              Обрані
+            </a>
+            <img class="user-nav__img" src="images/icons/heart-icon.png" alt="heart icon">
+            <span class="user-nav__num">1</span>
+          </div>
+          <div class="user-nav__item">
+            <a class="user-nav__link" href="#">
+              Корзина
+            </a>
+            <img class="user-nav__img" src="images/icons/basket-icon.png" alt="basket icon">
+            <span class="user-nav__num">2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="check" style="background-image: url(images/check-bg.jpg);">
+      <div class="check__inner">
+        <div class="check__box">
+          <div class="check__num"><span>1</span></div>
+          <h2 class="check__title">Оберіть колір</h2>
+          <form class="filter__form" action="#">
+            <label class="filter__label">
+              <input class="filter__input" type="radio" name="g">
+              <span class="filter__checkbox"></span>
+              <span class="filter__text">Червоне</span>
+            </label>
+            <label class="filter__label">
+              <input class="filter__input" type="radio" name="g">
+              <span class="filter__checkbox"></span>
+              <span class="filter__text">Біле</span>
+            </label>
+            <label class="filter__label">
+              <input class="filter__input" type="radio" name="g">
+              <span class="filter__checkbox"></span>
+              <span class="filter__text">Рожеве</span>
+            </label>
+          </form>
+          <div class="check__num"><span>2</span></div>
+          <h3 class="check__title">Укажіть дані зі складу</h3>
+          <p class="check__text">Якщо на етикетці вказан проміжок, то вкажіть його у вигляді 30-150</p>
+        </div>
+        <div class="check__items">
+          <div class="check__item">
+            <form class="check__item-form" action="#">
+              <label class="check__item-label">
+                Алкоголь:
+                <input class="check__item-input" type="text">
+              </label>
+              <label class="check__item-label">Цукор:
+                <input class="check__item-input" type="text">
+              </label>
+              <label class="check__item-label">Калорійнійсть:
+                <input class="check__item-input" type="text">
+              </label>
+            </form>
+          </div>
+          <div class="check__item">
+            <form class="check__item-form" action="#">
+              <label class="check__item-label check__item-label--small">Білки:
+                <input class="check__item-input" type="text">
+              </label>
+              <label class="check__item-label">Жири:
+                <input class="check__item-input" type="text">
+              </label>
+              <label class="check__item-label">Вуглуводи:
+                <input class="check__item-input" type="text">
+              </label>
+            </form>
+          </div>
+          <button class="check__items-btn">Перевірити вино</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__box">
+        <h4 class="footer__title">2018 TopWine</h4>
+      </div>
+      <div class="footer__top">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Головна</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Перевірка якості</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Каталог вин</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Акції</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <a class="footer__bottom-tel" href="tel:0507888888">050 788 88 88</a>
+        <a class="footer__bottom-tel" href="tel:0677888888">067 788 88 88</a>
+        <a class="footer__bottom-mail" href="mailto:support@topwine.ua">support@topwine.ua</a>
+        <div class="footer__bottom-social">
+          <a class="footer__bottom-social-link" href="#">
+            <img class="footer__bottom-social-img" src="images/icons/youtube-icon.png" alt="youtube icon">
+          </a>
+          <a class="footer__bottom-social-link" href="#">
+            <img class="footer__bottom-social-img" src="images/icons/facebook-white.png" alt="facebook icon">
+          </a>
+          <a class="footer__bottom-social-link" href="#">
+            <img class="footer__bottom-social-img" src="images/icons/instagram-icon.png" alt="instagram icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
