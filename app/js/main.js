@@ -1,5 +1,9 @@
 $(function () {
 
+  $('.menu__btn').on('click', function(){
+    $('.menu__list').toggleClass('menu__list--active');
+  });
+
   $('.promotions-slider__items').slick({
     dots: false,
     arrows: true,
@@ -105,12 +109,15 @@ $(function () {
     navText: ["", ""],
     responsive: {
       0: {
-        items: 1
+        items: 1,
+        nav: true
       },
       600: {
-        items: 3
+        items: 2,
+        nav: true,
+        margin: 25
       },
-      1000: {
+      1024: {
         items: 3
       }
     }
