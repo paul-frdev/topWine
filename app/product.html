@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>product</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Головна</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Перевірка якості</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Каталог вин</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Акції</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <div class="user-nav__item">
+            <a class="user-nav__link" href="#">
+              Обрані
+            </a>
+            <img class="user-nav__img" src="images/icons/heart-icon.png" alt="heart icon">
+            <span class="user-nav__num">1</span>
+          </div>
+          <div class="user-nav__item">
+            <a class="user-nav__link" href="#">
+              Корзина
+            </a>
+            <img class="user-nav__img" src="images/icons/basket-icon.png" alt="basket icon">
+            <span class="user-nav__num">2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="product">
+      <div class="product-container">
+        <div class="product-bg--white"></div>
+        <div class="product__inner">
+          <div class="product-item">
+            <div class="product-item__img">
+              <img src="images/product/josh.png" alt="josh img">
+            </div>
+            <div class="product-item__content">
+              <h3 class="product-item__title">Josh Cellars Pinot Noir</h3>
+              <p class="product-item__subtitle">Артикул:765877</p>
+              <div class="product-item__box">
+                <div class="product-item__star star" data-rateyo-rating="4"></div>
+                <p class="product-item__text">3 відгуки</p>
+              </div>
+              <div class="product-item__descrip">
+                <p class="product-item__descrip-text">Колір: <span>червоне</span></p>
+                <p class="product-item__descrip-text">Цукор: <span>солодке</span></p>
+                <p class="product-item__descrip-text">Об’єм: <span>0,75 л</span></p>
+                <p class="product-item__descrip-text">Країна: <span>США</span></p>
+                <p class="product-item__descrip-text">Виробник: <span> Josh</span></p>
+                <p class="product-item__descrip-text">Наявність: <span>є на складі</span></p>
+                <p class="product-item__descrip-text">Оцінка якості: <span>7 балів</span></p>
+              </div>
+              <p class="product-item__price">780 грн</p>
+              <form class="product-item__form" action="#">
+                <label class="product-item__form-label">
+                  Кількість:
+                  <input class="product-item__form-input" type="number" value="1" min="1">
+                </label>
+                <p class="product-item__form-sum">Сума: <span>1560 грн</span></p>
+                <button class="product-item__form-btn " type="submit">Оформити замовлення</button>
+              </form>
+              <div class='lines'>
+                <div class="line line-top"></div>
+                <div class="line line-right"></div>
+                <div class="line line-left"></div>
+                <div class="line line-bottom"></div>
+              </div>
+            </div>
+          </div>
+          <div class="product-bg--white"></div>
+          <div class="product-reviews">
+            <div class="product-reviews__box">
+              <h3 class="product-reviews__title title">Відгуки</h3>
+            </div>
+            <div class="product-reviews__inner">
+              <form class="product-reviews__form" action="#">
+                <input class="product-reviews__input" type="text" placeholder="Введіть ім’я">
+                <textarea class="product-reviews__textarea" placeholder="Введіть текст відгука"></textarea>
+                <div class="product-reviews__star-box">
+                  <span>Оцініть товар:</span>
+                  <div class="product-reviews__star"></div>
+                </div>
+                <button class="product-reviews__btn">Залишити відгук</button>
+              </form>
+              <div class="product-reviews__items">
+                <div class="product-reviews__item">
+                  <img class="product-reviews__img" src="images/reviews/julia.png" alt="юлия">
+                  <div class="product-reviews__content">
+                    <div class="product-reviews__content-box">
+                      <h4 class="product-reviews__content-title">Юлия</h4>
+                      <span class="product-reviews__star star" data-rateyo-rating="3.5"></span>
+                    </div>
+                    <p class="product-reviews__text">Сервісом перевірки користувалась уже декілька разів, коли купувала
+                      вино у
+                      супермаркеті. З TopWine робити вибір значно легше!</p>
+                    <div class='lines'>
+                      <div class="line line-top"></div>
+                      <div class="line line-right"></div>
+                      <div class="line line-left"></div>
+                      <div class="line line-bottom"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-reviews__item">
+                  <img class="product-reviews__img" src="images/reviews/julia.png" alt="юлия">
+                  <div class="product-reviews__content">
+                    <div class="product-reviews__content-box">
+                      <h4 class="product-reviews__content-title">Юлия</h4>
+                      <span class="product-reviews__star star" data-rateyo-rating="3.5"></span>
+                    </div>
+                    <p class="product-reviews__text">Сервісом перевірки користувалась уже декілька разів, коли купувала
+                      вино у
+                      супермаркеті. З TopWine робити вибір значно легше!</p>
+                    <div class='lines'>
+                      <div class="line line-top"></div>
+                      <div class="line line-right"></div>
+                      <div class="line line-left"></div>
+                      <div class="line line-bottom"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-reviews__item">
+                  <img class="product-reviews__img" src="images/reviews/julia.png" alt="юлия">
+                  <div class="product-reviews__content">
+                    <div class="product-reviews__content-box">
+                      <h4 class="product-reviews__content-title">Юлия</h4>
+                      <span class="product-reviews__star star" data-rateyo-rating="3.5"></span>
+                    </div>
+                    <p class="product-reviews__text">Сервісом перевірки користувалась уже декілька разів, коли купувала
+                      вино у
+                      супермаркеті. З TopWine робити вибір значно легше!</p>
+                    <div class='lines'>
+                      <div class="line line-top"></div>
+                      <div class="line line-right"></div>
+                      <div class="line line-left"></div>
+                      <div class="line line-bottom"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-bg--white"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
